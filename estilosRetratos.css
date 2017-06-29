@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-@media (min-width:900px){
+@media(min-width:900px){
 @font-face{
 	font-family: "Dancing Script";
 	src:url(Dancing%20Script%20v1.01/Dancing%20Script.ttf);
@@ -12,7 +12,8 @@ body{
 	}
 #contenido{
 	width:900px;
-	margin:0 auto;
+	margin: 0 auto;
+	animation: slideIn 2s;
 	}	
 #cabecera{
 	background-color:#5b7989;
@@ -36,7 +37,6 @@ body{
 	}
 #imagenes{
 	background-color:#d5c75f;
-
 	}
 #imagenes1{
 	display:flex;
@@ -101,6 +101,7 @@ body{
 	-webkit-border-radius: 0px 0px 10px 10px;  /* Safari  */
   	-moz-border-radius: 0px 0px 10px 10px;     /* Firefox */
 	display:flex;
+	
 	}
 #contacto{
 	margin: 15px;
@@ -111,9 +112,10 @@ body{
 #derechos{
 	margin-left: 10%;
 	margin-right:5%;	
-	}	
+	}		
+		
 }	
-@media(min-width:899px){
+@media(max-width:899px){
 	
 		@font-face{
 	font-family: "Dancing Script";
@@ -127,6 +129,7 @@ body{
 	}
 	#contenido{
 		width:100%;
+		animation: slideIn 2s;
 		}
 #cabecera{
 	background-color:#5b7989;
@@ -144,16 +147,18 @@ body{
 	padding-top: 10%;
 	list-style:none;
 	width:100%;
-	margin: 0 auto;
+	margin:0 auto;
+	
+	
 	}
 #menu li a{
 	color:white;		
 	text-decoration:none;
 	padding-left: 5%;
-	paddin-rigth:15px;
+	padding-right:15px;
 	font-size:1.0em;
 	width:100%;
-	
+	flex-direction:column;
 	}	
 	#imagenes{
 	background-color:#d5c75f;
@@ -245,4 +250,16 @@ body{
 	margin-left: 10%;
 	margin-right:5%;	
 	}
-}	
+}
+
+@-webkit-keyframes slideIn{
+	 0%{
+		margin-top:150%;
+		 }
+	60%{
+		margin-top:-5%;
+		}	 
+	100%{
+		margin-top:0%;
+		}
+	}
