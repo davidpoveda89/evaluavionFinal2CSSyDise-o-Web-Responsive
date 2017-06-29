@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+@media (min-width:900px){
+@font-face{
+	font-family: "Dancing Script";
+	src:url(Dancing%20Script%20v1.01/Dancing%20Script.ttf);
+	}
+body{
+	background-color:#02010a;
+	color: white;
+	font-family:"Dancing Script";
+	}
+#contenido{
+	width:900px;
+	margin:0 auto;
+	}	
+#cabecera{
+	background-color:#5b7989;
+	text-shadow: 2px 2px 2px #02010a ;
+	border-top:#0F3;
+	display:flex;
+	-webkit-border-radius: 10px 10px 0px 0px;  /* Safari  */
+  	-moz-border-radius: 10px 10px 0px 0px;     /* Firefox */
+	
+	}
+#menu{
+	margin-left: 40%;
+	display:flex;
+	padding-top: 20px;
+	list-style:none;
+	}
+#menu li a{
+	color:white;		
+	text-decoration:none;
+	padding-left: 10px;
+	}
+#imagenes{
+	background-color:#d5c75f;
+
+	}
+#imagenes1{
+	display:flex;
+	padding:3%;
+	
+	}
+#imagenes2{
+	display:flex;
+	padding:3%;
+	
+	
+	}
+#img01{
+	-moz-filter: blur(10px);
+	-webkit-filter:blur(10px);
+	filter:(10px);
+	padding-right:2%;
+	padding-left:2%;
+	width:60%;
+	}
+#img02{
+	-moz-filter: grayscale(100%);
+	-webkit-filter: grayscale (100%);
+	filter: grayscale(100%);
+	padding-left:2%;
+	padding-right:2%;
+	width:60%;
+	}
+#img03{
+	-moz-filter: sepia(90%);
+	-webkit-filter: sepia(90%);
+	filter: sepia(90%);	
+	padding-right:2%;
+	width:60%;
+	
+	}
+#img04{
+	-moz-filter: grayscale(100%);
+	-webkit-filter: grayscale (100%);
+	filter: grayscale(100%);
+	padding-right:2%;
+	padding-left:2%;
+	width:60%;
+	
+	}
+#img05{
+	padding-right:2%;
+	padding-left:2%;
+	width:60%;
+}
+#img06{
+	-moz-filter: grayscale(100%);
+	-webkit-filter: grayscale (100%);
+	filter: grayscale(100%);
+	padding-right:2%;
+	width:60%;	
+	}	
+	footer{
+	background-color:#C6d5c5;
+	color:black;
+	font-family:"Dancing Script";
+	-webkit-border-radius: 0px 0px 10px 10px;  /* Safari  */
+  	-moz-border-radius: 0px 0px 10px 10px;     /* Firefox */
+	display:flex;
+	}
+#contacto{
+	margin: 15px;
+	}
+#redes{
+	margin-left:15%;
+	}	
+#derechos{
+	margin-left: 10%;
+	margin-right:5%;	
+	}	
+}	
+@media(min-width:899px){
+	
+		@font-face{
+	font-family: "Dancing Script";
+	src:url(Dancing%20Script%20v1.01/Dancing%20Script.ttf);
+	}
+body{
+	background-color:#02010a;
+	color: white;
+	font-family:"Dancing Script";
+	flex-direction:column;
+	}
+	#contenido{
+		width:100%;
+		}
+#cabecera{
+	background-color:#5b7989;
+	text-shadow: 2px 2px 2px #02010a ;
+	border-top:#0F3;
+	display:flex;
+	-webkit-border-radius: 10px 10px 0px 0px;  /* Safari  */
+  	-moz-border-radius: 10px 10px 0px 0px;     /* Firefox */
+	flex-direction:column;
+	
+	}
+#menu{
+	margin-left: 40%;
+	display:flex;
+	padding-top: 10%;
+	list-style:none;
+	width:100%;
+	margin: 0 auto;
+	}
+#menu li a{
+	color:white;		
+	text-decoration:none;
+	padding-left: 5%;
+	paddin-rigth:15px;
+	font-size:1.0em;
+	width:100%;
+	
+	}	
+	#imagenes{
+	background-color:#d5c75f;
+	flex-direction:column;
+	}
+#imagenes1{
+	display:flex;
+	padding:3%;
+	flex-direction:column;
+	margin:0 auto;
+	
+	}
+#imagenes2{
+	display:flex;
+	padding:3%;
+	flex-direction:column;
+	margin:0 auto;
+	
+	
+	}
+#img01{
+	-moz-filter: blur(10px);
+	-webkit-filter:blur(10px);
+	filter:(10px);
+	width:60%;
+	margin:0 auto;
+	flex-direction:column;
+	margin-bottom:15px;	
+	}
+#img02{
+	-moz-filter: grayscale(100%);
+	-webkit-filter: grayscale (100%);
+	filter: grayscale(100%);
+	margin:0 auto;
+	width:60%;
+	margin-bottom:15px;
+	flex-direction:column;
+	}
+#img03{
+	-moz-filter: sepia(90%);
+	-webkit-filter: sepia(90%);
+	filter: sepia(90%);	
+	margin:0 auto;
+	width:60%;
+	flex-direction:column;
+	
+	}
+#img04{
+	-moz-filter: grayscale(100%);
+	-webkit-filter: grayscale (100%);
+	filter: grayscale(100%);
+	margin:0 auto;
+	margin-bottom:15px;
+	width:60%;
+	flex-direction:column;
+	
+	}
+#img05{
+	margin:0 auto;
+	margin-bottom:15px;
+	width:60%;
+	flex-direction:column;
+}
+#img06{
+	-moz-filter: grayscale(100%);
+	-webkit-filter: grayscale (100%);
+	filter: grayscale(100%);
+	margin:0 auto;
+	width:60%;
+	flex-direction:column;	
+	}	
+	footer{
+	background-color:#C6d5c5;
+	color:black;
+	font-family:"Dancing Script";
+	-webkit-border-radius: 0px 0px 10px 10px;  /* Safari  */
+  	-moz-border-radius: 0px 0px 10px 10px;     /* Firefox */
+	display:flex;
+	flex-direction:column;
+	
+	}
+#contacto{
+	margin: 15px;
+	}
+#redes{
+	margin-left:15%;
+	}	
+#derechos{
+	margin-left: 10%;
+	margin-right:5%;	
+	}
+}	
