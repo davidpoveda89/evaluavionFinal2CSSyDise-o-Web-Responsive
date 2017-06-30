@@ -46,9 +46,16 @@ body{
 #imagenes2{
 	display:flex;
 	padding:3%;
-	
-	
+	display:flex;	
 	}
+#imagenes1 img{
+width: 30%;
+height: 30%;
+}
+#imagenes2 img{
+width: 30%;
+height: 30%;
+}
 #img01{
 	-moz-filter: blur(10px);
 	-webkit-filter:blur(10px);
