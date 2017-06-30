@@ -156,7 +156,9 @@ body{
 	width:100%;
 	flex-direction:column;
 	}
-
+#imagen1{
+	background-color: #82c3a6;
+	}
 img{
 	box-shadow: 2px 2px 2px #02010a;
 	margin:15px;
@@ -213,10 +215,10 @@ footer{
 	flex-direction:column;
 	}
 #contacto{
-	margin: 15px;
+	margin: 10%;
 	}
 #redes{
-	margin-left:15%;
+	margin-left:10%;
 	}	
 #derechos{
 	margin-left: 10%;
